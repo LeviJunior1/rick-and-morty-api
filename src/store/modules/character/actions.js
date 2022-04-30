@@ -3,12 +3,12 @@ import {
 } from '@/api/character'
 
 const actions = {
-    getCharacter({ commit }) {
-        return getCharacter
-            .then(res => {
-                commit('GET_CHARACTER', res)
-            })
-            .catch(err => console.log(err))
+    async getCharacter({ commit }, params) {
+        await  getCharacter(params)
+        .then(res => {
+            commit('GET_CHARACTER', res)
+        })
+        .catch(err => console.log(err))
     }
 }
 

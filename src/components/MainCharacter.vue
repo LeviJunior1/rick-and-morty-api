@@ -10,6 +10,20 @@
             :character="character"
         />
     </v-row>
+    <v-row
+        justify="center"
+    >
+        <v-col>
+            <v-pagination
+                v-model="page"
+                :length="lengthPages"
+                :total-visible="7"
+                circle
+                color="#d16ba5"
+                @input="handlePageChange"
+            ></v-pagination>
+        </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -24,21 +38,29 @@ export default {
     },
     computed: {
         ...mapGetters('character', {
-            characters: 'getCharacter'
+            characters: 'getCharacter',
+            lengthPages: 'getPages'
         })
     },
+    data: () => ({
+        page: 1
+    }),
     created() {
-        this.getCharacter()
+        this.getCharacter(this.page)
     },
     methods: {
         ...mapActions('character', {
             getCharacterApi: 'getCharacter'
         }),
         
-        async getCharacter() {
-            await this.getCharacterApi()
+        getCharacter() {
+            this.getCharacterApi()
+        },
+
+        handlePageChange() {
+            this.getCharacterApi(this.page)
+            scrollTo(0, 0)
         }
     }
-    
 }
 </script>

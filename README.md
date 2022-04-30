@@ -14,7 +14,7 @@
 
 ## Status do Projeto
 <h4 align="center"> 
- :hammer: Construção :hammer:
+ :heavy_check_mark: Concluído :heavy_check_mark:
 </h4>
 
 ## Demonstração da aplicação
@@ -44,8 +44,8 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run serve
 
-# O projeto irá realizar o build e inicializará o localhost é indico no terminal.
-# Pronto agora é só acessar a url!
+# O projeto inicializará e o localhost é indicado no terminal.
+# Pronto agora é só acessar!!
 ```
 
 ## Tecnologias
