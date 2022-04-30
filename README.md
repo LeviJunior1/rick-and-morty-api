@@ -18,7 +18,7 @@
 </h4>
 
 ## Demonstração da aplicação
-Acesse o site para ver a <a href="https://levijunior1.github.io/rick-and-morty-api/" target="_blank">Demostração</a> :heart_eyes:
+Acesse o site para ver a <a href="https://levijunior1.github.io/rick-and-morty-api/" target="_blank">Demonstração</a> :heart_eyes:
 <br><br><br>
 ![](https://github.com/LeviJunior1/rick-and-morty-api/blob/master/src/assets/rick-and-morty.gif)
 
