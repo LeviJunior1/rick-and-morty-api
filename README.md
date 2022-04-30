@@ -1,25 +1,26 @@
-# Rick and Morty API
+<h1 align="center"> Rick and Morty API </h1>
 
 ## Descrição do Projeto
-<p align="center">Conheça os seus personagens favoritos de Rick and Morty 😍😍😍🌱🌱</p>
+<p align="center">Conheça todos os personagens de Rick and Morty :alien:</p>
 
 ## Tabela de conteúdos
 <p align="center">
- <a href="#Status-do-Projeto">Status do Projeto</a> • 
- <a href="#Demonstração-da-aplicação">Demonstração da aplicação</a> •
- <a href="#Pré-requisitos">Pré-requisitos</a> •
- <a href="#Tecnologias">Tecnologias</a> • 
+ <a href="#status-do-projeto">Status do Projeto</a> • 
+ <a href="#demonstração-da-aplicação">Demonstração da aplicação</a> •
+ <a href="#pré-requisitos">Pré-requisitos</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
  <a href="#autor">Autor</a>
 </p>
 
 ## Status do Projeto
 <h4 align="center"> 
-	⚠️ Construção ⚠️
+ :hammer: Construção :hammer:
 </h4>
 
 ## Demonstração da aplicação
-⚠️ Acesse o video completo no <a href="https://www.youtube.com/watch?v=R76mUB3EiQA" target="_blank">YouTube</a> ⚠️
-![](https://github.com/LeviJunior1/plantmanager/blob/main/gif/plant-manager.gif)
+Acesse o site para ver a <a href="https://levijunior1.github.io/rick-and-morty-api/" target="_blank">Demostração</a> :heart_eyes:
+<br><br><br>
+![](https://github.com/LeviJunior1/rick-and-morty-api/blob/master/src/assets/rick-and-morty.gif)
 
 
 ## Pré-requisitos
@@ -28,7 +29,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-## 🎲 Rodando o Projeto
+## :game_die: Rodando o Projeto
 
 ```bash
 # Clone este repositório
@@ -47,7 +48,7 @@ $ npm run serve
 # Pronto agora é só acessar a url!
 ```
 
-## <h2>Tecnologias</h2>
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
