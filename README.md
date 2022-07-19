@@ -44,6 +44,9 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run serve
 
+# Deploy no github
+$ npm run deploy
+
 # O projeto inicializará e o localhost é indicado no terminal.
 # Pronto agora é só acessar!!
 ```
