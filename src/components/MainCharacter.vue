@@ -4,10 +4,11 @@
         align="center"
         justify="center"
     >
-        <CardDefault 
+        <CardDefault
             v-for="character in characters.result"
             :key="character.id"
             :character="character"
+            class="mx-auto my-12"
         />
     </v-row>
     <v-row

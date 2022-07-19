@@ -1,10 +1,10 @@
 <template>
   <v-card
-    class="mx-auto my-12"
     elevation="1"
     max-width="300">
     <v-img
       height="250"
+      :lazy-src="character.image"
       :src="character.image">
     </v-img>
     <v-card-text>

@@ -1,5 +1,5 @@
 const state = () => ({
-    listCharacter: {}
+    listCharacter: []
 })
 
 export default state
